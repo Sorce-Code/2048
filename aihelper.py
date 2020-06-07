@@ -16,7 +16,7 @@ class AIHelper:
         self.board.makeMoves(move)
     
     def getMoves(self):
-        move = self.alpha_beta(self.board, 0)
+        move = self.alpha_beta(self.board, 4)
         return move
         
     def alpha_beta(self, b, depth):

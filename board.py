@@ -22,7 +22,7 @@ class Board():
         self.tiles_placed = list()
         self.shifters_turn = False
         self.previous_board_state = None
-        self.human = True
+        self.human = False
         self.killSwitch = False
         
     def __str__(self):
